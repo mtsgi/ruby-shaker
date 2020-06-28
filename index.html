@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mtsgi/kitstrap@0.5/d/kitstrap.css">
+  <title>ルビ振るやつ v4</title>
+</head>
+<body>
+  <header>
+    ルビ振るやつ <span class="kit-badge">v4</span>
+    <kit-button class="kit-right -medium">内容をクリア</kit-button>
+  </header>
+  <textarea class="kit-textbox" kit:observe="full_text" kit:bind="full_text"></textarea>
+  <pre kit:observe="full_text"></pre>
+  <script src="./writedown.js"></script>
+  <script src="./shaker.js" type="module"></script>
+</body>
+</html>
